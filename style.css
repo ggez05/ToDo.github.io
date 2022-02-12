@@ -1,14 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
 .line {
 	text-decoration: line-through;
 
@@ -167,17 +158,6 @@ ol ol li::before {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .effect-7 ~ .focus-border:before,
 .effect-7 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 50%; width: 0; height: 2px; background-color: #4caf50; transition: 0.4s;}
 .effect-7 ~ .focus-border:after{top: auto; bottom: 0;}
@@ -188,9 +168,6 @@ ol ol li::before {
 .effect-7:focus ~ .focus-border:after{left: 0; width: 100%; transition: 0.4s;}
 .effect-7:focus ~ .focus-border i:before,
 .effect-7:focus ~ .focus-border i:after{top: 0; height: 100%; transition: 0.6s;}
-
-
-
 
 
 
@@ -206,11 +183,11 @@ ol ol li::before {
 
   }
   ol {
-  	-moz-column-count: 3;
+  	-moz-column-count: 2;
     -moz-column-gap: 20px;
-    -webkit-column-count: 3;
+    -webkit-column-count: 2;
     -webkit-column-gap: 20px;
-    column-count: 3;
+    column-count: 2;
     column-gap: 20px;
 
   }
